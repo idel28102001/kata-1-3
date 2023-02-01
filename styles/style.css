@@ -42,7 +42,7 @@ ul {
 .header__bar {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
 .header__content {
@@ -76,7 +76,12 @@ ul {
   background-color: #EAEAEA;
   }
 
-.header__menu {
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__right {
   display: none;
 }
 
@@ -264,7 +269,7 @@ ul {
     left: -22px;
   }
 
-  .header__menu {
+  .header__right {
     display: flex;
     flex-grow: 1;
     justify-content: right;
@@ -361,7 +366,7 @@ ul {
     padding: 0 32px;
   }
 
-  .header__burger, .header__logo, .header__menu {
+  .header__burger, .header__logo, .header__right {
     display: none;
   }
 
