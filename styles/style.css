@@ -25,6 +25,12 @@ ul {
   margin: 0 auto;
 }
 
+.mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
 
 
 /* HEADER */
