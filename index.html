@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__box">
+      <div class="header__box big-container">
         <div class="header__up">
           <div class="container">
             <div class="header__content">
@@ -26,40 +26,45 @@
                   alt="Бургер меню"
                 />
               </button>
-              <a class="header__logo logo" href=""
-                ><img class="logo__img" src="./images/svgs/logo.svg" alt="Logo"
-              /></a>
-              <nav class="header__menu menu">
+              <div class="header__logo logo">
+                <a class="logo__link" href="#"
+                  ><img
+                    class="logo__img"
+                    src="./images/svgs/logo.svg"
+                    alt="Logo"
+                /></a>
+              </div>
+              <div class="header__menu menu">
                 <ul class="menu__list">
                   <li class="menu__item">
-                    <button class="menu__button nav-button">
+                    <button class="menu__button menu-button">
                       <img
-                        class="nav-button__img"
+                        class="menu-button__img"
                         src="./images/svgs/call.svg"
                         alt="Звонок"
                       />
                     </button>
                   </li>
                   <li class="menu__item">
-                    <button class="menu__button nav-button">
+                    <button class="menu__button menu-button">
                       <img
-                        class="nav-button__img"
+                        class="menu-button__img"
                         src="./images/svgs/chat.svg"
                         alt="Чат"
                       />
                     </button>
                   </li>
                   <li class="menu__item">
-                    <button class="menu__button nav-button">
+                    <button class="menu__button menu-button">
                       <img
-                        class="nav-button__img"
+                        class="menu-button__img"
                         src="./images/svgs/profile.svg"
                         alt="Профиль"
                       />
                     </button>
                   </li>
                 </ul>
-              </nav>
+              </div>
               <div class="header__info info">
                 <ul class="info__list">
                   <li class="info__item">
@@ -98,34 +103,36 @@
     </header>
     <main class="main">
       <div class="container">
-        <div class="main__content">
-          <div class="main__nav services">
+        <section class="hero">
+          <nav class="hero__nav services">
             <ul class="services__list">
               <li class="services__item serivce">
-                <button class="service__button">Ремонтируемые бренды</button>
+                <a class="service__link" href="#repair">Ремонтируемые бренды</a>
               </li>
               <li class="services__item serivce">
-                <button class="service__button service__button--active">
+                <a class="service__link service__link--active">
                   Ремонтируемые устройства
-                </button>
+                </a>
               </li>
               <li class="services__item serivce">
-                <button class="service__button">Цены на услуги</button>
+                <a class="service__link" href="#prices">Цены на услуги</a>
               </li>
               <li class="services__item serivce">
-                <button class="service__button">
+                <a class="service__link" href="#addresses">
                   Адреса сервисных центров
-                </button>
+                </a>
               </li>
               <li class="services__item serivce">
-                <button class="service__button">Специальные цены</button>
+                <a class="service__link" href="#special-prices"
+                  >Специальные цены</a
+                >
               </li>
               <li class="services__item serivce">
-                <button class="service__button">Отзывы</button>
+                <a class="service__link" href="#feedback">Отзывы</a>
               </li>
             </ul>
-          </div>
-          <div class="main__information information">
+          </nav>
+          <div class="hero__information information">
             <div class="information__content">
               <div class="information__description">
                 <p class="information__p">
@@ -142,12 +149,7 @@
                 </p>
               </div>
               <button class="information__button button-read-more">
-                <span class="button-read-more__label">Читать далее</span>
-                <img
-                  class="button-read-more"
-                  src="./images/svgs/expand.svg"
-                  alt="Читать далее"
-                />
+                Читать далее
               </button>
             </div>
             <div class="information__image image-info">
@@ -168,7 +170,7 @@
               </picture>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </main>
   </body>
