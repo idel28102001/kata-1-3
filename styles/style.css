@@ -145,7 +145,7 @@ ul {
   border-radius: 4px;
 }
 
-.service__button-active {
+.service__button--active {
   border: 2px solid #B8FFEC;
 }
 
